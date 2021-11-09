@@ -63,19 +63,30 @@ html {
 
 /* IngrownMink4 tweaked CSS code */
 html {
-    scrollbar-width: thin;
+   scrollbar-color: #dde2d2 #fffff8;
+    scrollbar-width: auto
 }
 
 ::-webkit-scrollbar {
-width: 8px;
-background: transparent;
+    width: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
-background: #cdcdcd;
-border-radius: 7px;
+    background: #dde2d2;
+    border: 2px solid #111111;
+    border-radius: 7px;
 }
-/* tweaked code end */
+
+::-webkit-scrollbar-track {
+    background: #fffff8;
+    border-left: 0px solid #2c2c2c;
+}
+
+
+::-webkit-scrollbar-thumb:vertical:active {
+  background: #d6e2bc; /* Some darker color when you click it */
+  -webkit-border-radius: 100px;
+}aked code end */
 
 
 body {
